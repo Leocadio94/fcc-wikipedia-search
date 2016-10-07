@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+body {
+  font-family: 'Oswald', serif;
+  background-color: #092B40;
+  color: white;
+}
+
+.wikipedia-center {
+  padding-top: 10%;
+  font-size: 1.5em;
+}
+
+.wikipedia-top {
+  font-size: 1.5em;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+  color: white;
+}
+
+input {
+  outline: none;
+  color: gray;
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  font-family: inherit;
+  font-size: 100%;
+}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+  display: none;
+}
+
+input[type=search] {
+  background: #ededed url(http://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+  border: solid 1px #ccc;
+  padding: 9px 10px 9px 32px;
+  width: 30px;
+  -webkit-border-radius: 10em;
+  -moz-border-radius: 10em;
+  border-radius: 10em;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+
+input[type=search]:not(:focus) {
+  cursor: pointer;
+}
+
+input[type=search].clearable {
+  width: 235px;
+  background-color: #fff;
+  border-color: #66CC75;
+  cursor: text;
+  -webkit-box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+  -moz-box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+  box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+}
+
+input:-moz-placeholder {
+  color: #999;
+}
+
+input::-webkit-input-placeholder {
+  color: #999;
+}
+
+#close {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.result {
+  background-color: white;
+  color: black;
+  width: 100%;
+  padding: 5px 5px 20px 20px;
+}
+
+.result:hover {
+  cursor: pointer;
+  border-left: thick solid #ff5500;
+}
